@@ -30,6 +30,7 @@
     min-height: 100vh;
     background-color: var(--primary-color);
     color:var(--secondary-color)
+    padding 20px;
   }
   button{
     background-color: var(--tertiary-color);
@@ -43,9 +44,20 @@
     position: relative;
     top: 200px;
     width: auto;
-    margin: 0% 1% 0% 90%;
+    margin: 0% 5% 0% 80%;
     text-align: center;
+    border-style: double;
   }
+  @media(max-width: 600px){
+    .sidebar{
+      position: relative;
+      top: 200px;
+      width: auto;
+      margin: auto;
+      text-align: center;
+      border-style: double;
+  }
+}
   h3{
     font-size: 1.3em;
   }
